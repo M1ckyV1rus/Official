@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#040b16" />
+    <meta name="description" content="Prime Book Publication - write projects and Telegram community." />
+    <title>Prime Book Publication - Write Books, Earn Money</title>
+    <!-- Meta Pixel Code -->
+    <script>
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1655631982956538');
+      fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1655631982956538&ev=PageView&noscript=1" alt="" />
+    </noscript>
+    <div id="root"></div>
+    <script>
+      if (window.location.protocol === 'file:') {
+        const loadScript = (src, type, onload) => {
+          const script = document.createElement('script');
+          script.src = src;
+          if (type) script.type = type;
+          if (onload) script.onload = onload;
+          document.body.appendChild(script);
+        };
+
+        const stylesheet = document.createElement('link');
+        stylesheet.rel = 'stylesheet';
+        stylesheet.href = 'src/App.css';
+        document.head.appendChild(stylesheet);
+
+        loadScript('https://unpkg.com/react@18/umd/react.development.js', null, () => {
+          loadScript('https://unpkg.com/react-dom@18/umd/react-dom.development.js', null, () => {
+            loadScript('https://unpkg.com/@babel/standalone/babel.min.js', null, () => {
+              loadScript('src/App.jsx', 'text/babel');
+            });
+          });
+        });
+      }
+    </script>
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
