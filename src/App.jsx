@@ -140,7 +140,7 @@ function App() {
     <main className="page-shell">
       <header className="topbar">
         <div className="brand-wrap">
-          <img src="images/prime-logo.jpg" alt="Prime Book Publication logo" className="brand-logo" />
+          <img src="../images/prime-logo.jpg" alt="Prime Book Publication logo" className="brand-logo" />
           <span className="brand-name">Prime Book Publication</span>
         </div>
         <a id="telegramBtn" href={telegramLink} target="_blank" rel="noreferrer" className="telegram-pill telegram-cta">
@@ -175,7 +175,7 @@ function App() {
 
       <section className="hero-card">
         <img
-          src="images/books-collage-ClBVX7zc.jpg"
+          src="../images/books-collage-ClBVX7zc.jpg"
           alt="Collection of published book covers by Prime Book Publication"
           className="hero-image"
         />
